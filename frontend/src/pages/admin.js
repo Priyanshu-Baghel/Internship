@@ -36,7 +36,7 @@ const VehicleMarker = ({ id, position, vehicleNo, icon, handleClick }) => {
 }
 
 const Dashboard = () => {
-  const [gmapsApiKey, setGmapsApiKey] = useState('AIzaSyDLjoB6P_Lq09MsDu1Cm_YsXYBEOQU1vyw');
+  const [gmapsApiKey, setGmapsApiKey] = useState('use Api key here');
 
   const handleApiKeySubmit = (e) => {
     e.preventDefault();
